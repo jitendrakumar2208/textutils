@@ -1,0 +1,28 @@
+.utils {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2%;
+  gap: 20px;
+}
+.textnotes {
+  width: 50%;
+}
+.textnotes textarea {
+  width: 100%;
+  border: 5px solid rgb(7, 192, 152);
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.btn {
+  padding: 10px 13px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgb(22, 204, 241);
+  cursor: pointer;
+}
